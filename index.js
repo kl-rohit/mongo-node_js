@@ -13,7 +13,7 @@ mongoose
     'mongodb://mongo:27017/docker-node-mongo',
     { useNewUrlParser: true }
   )
-  .then(() => console.log('MongoDB Connected'))
+  .then(() => console.log('MongoDB Connected'))https://github.com/kl-rohit/mongo-node_js/blob/main/views/index.js
   .catch(err => console.log(err));
 
 const Item = require('./models/Item');
